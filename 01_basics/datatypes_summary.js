@@ -38,3 +38,30 @@ const myFunction = function(){
 }
 
 console.log(typeof(myObj));
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (Primitive), Heap (Non Primitive)
+
+let myYoutubename = "sakshigaikwad"
+
+let anothername = "sakshigchd"
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email : "saku@gmail.com",
+    upi: "dghgdhj@hdj"
+}
+
+let userTwo = userOne
+
+userTwo.email = "dhghdj@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
